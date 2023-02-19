@@ -1,0 +1,68 @@
+@media only screen and (max-width: 480px){
+
+  main {
+    flex-direction: column;
+    height: 121vh;
+    background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(255,245,245,1) 100%);
+  }
+
+  .body-container {
+    padding: 0;
+    width: 100%;
+    
+  }
+
+  .body-container > img {
+    margin: 1.9375rem;
+    height: 1.3125rem;
+    width: 6.25rem;
+   
+  }
+
+  .text-container {
+   text-align: center;
+   width: 19.4375rem;
+   margin: 0 auto;
+  }
+
+  .title {
+   font-size: 2.325rem;
+   margin: 0;
+   font-weight: 600;
+   margin: 3.75rem 0 0.875rem;
+   letter-spacing: 0.8125rem;
+  }
+
+  .were-word {
+    font-size: 2.1563rem;
+    letter-spacing: 0.8125rem;
+  }
+
+  .description {
+    font-size: 0.875rem;
+    margin-bottom: 2.4375rem;
+  }
+
+  .hero-desktop {
+    display: none;
+  }
+
+  .hero-mobile {
+    display: block;
+  }
+
+  form {
+    height: 3.0625rem;
+  }
+
+  .icon-error {
+    top: 0.8125rem;
+    right: 5rem;
+  }
+
+  button {
+    left: auto;
+    width: 3.9375rem;
+  }
+
+}
