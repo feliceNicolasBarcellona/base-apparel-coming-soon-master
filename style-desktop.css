@@ -149,6 +149,7 @@ button {
   left: 77.5%;
   top: 0px;
   background: linear-gradient(135deg, hsl(0, 80%, 86%) 0%, hsl(0, 74%, 74%) 100%);
+  box-shadow: -5px 15px 50px var(--desaturated-red);
   display: flex;
   align-items: center;
   justify-content: center;
