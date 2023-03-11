@@ -5,7 +5,8 @@ const iconError = document.querySelector(".icon-error");
 
 const emailRegExp = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
-form.addEventListener('click', () => {
+form.addEventListener('click', (event) => {
+  event.preventDefault();
   if(email.value !== '' && !emailRegExp.test(email.value)){
     iconError.style.display = 'block';
     textError.innerHTML = 'Please provide a valid email';
